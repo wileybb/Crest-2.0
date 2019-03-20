@@ -46,3 +46,5 @@ db.sequelize.sync().then(function () {
     console.log(`🌎  ==> API Server now listening on http://localhost:${PORT}!`);
   });
 });
+
+app.disable('etag');
