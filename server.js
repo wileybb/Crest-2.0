@@ -27,6 +27,9 @@ app.use(passport.session());
 //   app.use(express.static("client/build"));
 // }
 
+// Add routes, both API and view
+app.use(routes);
+
 if (process.env.NODE_ENV === 'production') {
   // Exprees will serve up production assets
   app.use(express.static('client/build'));
@@ -37,8 +40,6 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
 }
-// Add routes, both API and view
-app.use(routes);
 
 // Start the API server
 db.sequelize.sync().then(function () {
