@@ -52,6 +52,7 @@ export default class TotalValue extends Component {
             this.setState({ updatePortfolio: res.data })
             const updatePort = res.data;
             const updateWatchList = [];
+            console.log("this.state.updatePortfolio", this.state.updatePortfolio)
             this.state.updatePortfolio.forEach(function (el) {
                 updateWatchList.push(el.symbol)
                 //return updateWatchList
