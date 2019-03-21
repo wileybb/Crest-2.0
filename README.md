@@ -1,6 +1,6 @@
 # Welcome to Crest
 
-#Developer's Notes:
+## Developer's Notes:
 3/20/19: Currently the heroku deployed version is being debugged. 
 
 
