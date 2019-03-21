@@ -1,4 +1,9 @@
 # Welcome to Crest
+
+#Developer's Notes:
+3/20/19: Currently the heroku deployed version is being debugged. 
+
+
 ### Market Trading. Simplified.
 
 #### Develop your own portfolio from our pre-allocated budget and track its performance over time.
